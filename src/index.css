@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+/* Navbar style */
+.navbar {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  margin: auto;
+  border-bottom: 1px solid #fafafa;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  padding: 10px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+h1 {
+  color: #f1356d;
+  font-size: 1.8em;
+}
+
+/* Blog List style */
+.title {
+  text-align: center;
+  margin: 20px;
+  font-size: 1.8rem;
+}
+.blog-preview {
+  padding: 15px 20px;
+  border-bottom: 1px solid #fafafa;
+  margin: 20px 200px;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-preview a {
+  text-decoration: none;
+}
+
+/* App */
+.content{
+  max-width: 800px;
+  margin: 15px auto;
+  padding: 20px;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
+/* blog details page */
+.blogTitle {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 1.6em;
+  color: #f1356d;
+
+}
+.blogAuthor {
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+.blogBody::first-letter {
+  color: #f1356d;
+  font-size: 3rem;
+  float: left;
+}
+.blog-details button { 
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  width: 100px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 45%;
+  margin-top: 20px;
+}
+
+/* create new blog page */
+.create {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
